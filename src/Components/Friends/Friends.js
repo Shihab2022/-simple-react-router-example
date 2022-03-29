@@ -12,7 +12,7 @@ const Friends = () => {
     return (
         <div>
             <h1>this is all friends page ..</h1> 
-            <p > <span style={{color:"red",fontWeight:'bold',fontSize:"200px"}} >Friends</span></p>
+            <p > <span style={{color:"red",fontWeight:'bold',fontSize:"200px",margin:'0px'}} >Friends</span></p>
 
             {
                 friends.map(friend=> <Friend friend={friend} key={friend.id}></Friend>)
